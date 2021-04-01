@@ -16,11 +16,18 @@ a {
 a:hover {
     color: #2571db;
 }
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
 /* Header */
 .profile {
     width: 150px;
 }
 header {
+    width: 500px;
+    margin: auto;
     text-align: center;
 }
 img {
@@ -64,21 +71,24 @@ article {
 
 /* responsive */
 @media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+    }
     header {
-        text-align: center;
+        margin-left: -5rem;
     }
     .olhtml {
         background-color: rgb(239, 249, 252);
         height: 15rem;
-        width: 25rem;
+        width: 19rem;
         overflow-y: scroll;
     }
     .introduction {
-        display: flex;
-        margin: auto;
-        flex-wrap: wrap;
+        width: 70%;
     }
-    .project {
-        padding-left: 10px;
+    .contact {
+        width: 50%;
     }
 }

@@ -1,0 +1,84 @@
+body {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+h4 {
+    margin-bottom: 0.5rem;
+}
+p {
+    line-height: 1.5;
+}
+/* link */
+a {
+    text-decoration: none;
+    color: #258cdb;
+}
+a:hover {
+    color: #2571db;
+}
+/* Header */
+.profile {
+    width: 150px;
+}
+header {
+    text-align: center;
+}
+img {
+    border: 0;
+    border-radius: 50%;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #777;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+nav ul li a:hover {
+    background: gainsboro;
+    color: #258cdb;
+}
+
+/* Content */
+article {
+    width: 500px;
+    margin: auto;
+}
+
+/* project */
+
+.olhtml {
+    background-color: rgb(239, 249, 252);
+    height: 15rem;
+    overflow-y: scroll;
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+    header {
+        text-align: center;
+    }
+    .olhtml {
+        background-color: rgb(239, 249, 252);
+        height: 15rem;
+        width: 25rem;
+        overflow-y: scroll;
+    }
+    .introduction {
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .project {
+        padding-left: 10px;
+    }
+}

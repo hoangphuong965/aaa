@@ -165,9 +165,13 @@ img.avatar {
   margin-bottom: 20px;
 }
 
-@media only screen and (max-width : 768px) {
+@media (max-width : 768px) {
   section {
     grid-template-columns: 1fr;
+  }
+
+  .job {
+    width: 100%;
   }
 
   .links, .job-title-container {

@@ -170,10 +170,6 @@ img.avatar {
     grid-template-columns: 1fr;
   }
 
-  .job {
-    width: 100%;
-  }
-
   .links, .job-title-container {
     flex-direction: column;
   }
@@ -190,5 +186,11 @@ img.avatar {
   .interests-container img {
     margin-right: 32px;
     margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 400px) {
+  .job {
+      width: 100%;
   }
 }
